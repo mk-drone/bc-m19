@@ -25,14 +25,14 @@ const deleteComment = (id) => {
 
 const thumbUp = (id) => {
     return {
-        type: 'DELETE_COMMENT',
+        type: 'THUMBUP_COMMENT',
         id: id,
     };
 }
 
 const thumbDown = (id) => {
     return {
-        type: 'DELETE_COMMENT',
+        type: 'THUMBDOWN_COMMENT',
         id: id,
     };
 }
